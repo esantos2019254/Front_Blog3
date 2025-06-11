@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-    baseURL: 'http://127.0.0.1:3000/blog/v1',
+    baseURL: 'https://backblog3-production.up.railway.app/blog/v1',
     timeout: 5000
 })
 
